@@ -15,7 +15,7 @@ return new class extends Migration
             $table->string('slug')->uinque();
             $table->text('excerpt')->uinque();
             $table->text('description')->uinque();
-            $table->boolean('status')->default(false);
+            $table->boolean('statusa')->default(false);
             $table->foreignId("user_id")->constrained('users')->onDelete('cascade'); 
             $table->foreignId("category_id")->constrained('categories')->onDelete('cascade'); 
 

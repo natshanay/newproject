@@ -22,10 +22,7 @@ class Article extends Model
     }
 
     
-    public function abebe(): BelongsTo
-    {
-        return $this->belongsTo(User::class);
-    }
+   
 
     
     public function category(): BelongsTo
