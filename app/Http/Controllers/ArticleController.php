@@ -12,14 +12,17 @@ class ArticleController extends Controller
      */
     public function index()
     {
-        return inertia('article/index');
+        return inertia('articles/index');
+        
+        
     }
-
+    
     /**
      * Show the form for creating a new resource.
-     */
+    */
     public function create()
     {
+        return inertia('articles/create');
         //
     }
 

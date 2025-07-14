@@ -8,7 +8,7 @@ Route::get('/', function () {
 })->name('home');
 
 
-Route::resource('articles', ArticleController::class )->except(['show','index']);
+Route::resource('articles', ArticleController::class );
 
 Route::middleware(['auth', 'verified'])->group(function () {
     Route::get('dashboard', function () {
