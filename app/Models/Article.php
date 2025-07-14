@@ -15,9 +15,7 @@ class Article extends Model
         'title', 'slug', 'excerpt', 'description', 'status', 'user_id', 'category_id'
     ];
 
-    /**
-     * @return string
-     */
+  
     public function getRouteKeyName(): string
     {
         return 'slug';
