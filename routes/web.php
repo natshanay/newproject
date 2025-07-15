@@ -7,6 +7,7 @@ Route::get('/', function () {
     return Inertia::render('welcome');
 })->name('home');
 
+Route::get('/articles/{article}', [ArticleController::class, 'show']);
 
 Route::resource('articles', ArticleController::class );
 

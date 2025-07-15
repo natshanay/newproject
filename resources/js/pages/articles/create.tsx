@@ -19,7 +19,7 @@ type ArticleForm = {
   excerpt: string
   description: string
   category_id: string
-  tags: string[]      // ✅ Allowed: string[]
+  tags: string[]      
   status: boolean
 }
 

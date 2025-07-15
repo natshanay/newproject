@@ -14,6 +14,7 @@ class Article extends Model
     protected $fillable = [
         'title', 'slug', 'excerpt', 'description', 'status', 'user_id', 'category_id'
     ];
+   
 
   
     public function getRouteKeyName(): string
@@ -23,8 +24,11 @@ class Article extends Model
 
     
    
-
     
+    public function user(): BelongsTo
+    {
+        return $this->belongsTo(User::class);
+    }
     public function category(): BelongsTo
     {
         return $this->belongsTo(Category::class);
