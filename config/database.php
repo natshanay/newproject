@@ -3,6 +3,7 @@
 use Illuminate\Support\Str;
 
 return [
+'transform_request_data' => true,
 
     /*
     |--------------------------------------------------------------------------

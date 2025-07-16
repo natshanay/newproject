@@ -14,13 +14,13 @@ const mainNavItems: NavItem[] = [
         icon: LayoutGrid,
     },
     {
-        title: 'contact',
-        href: '/contacts/',
+        title: 'Article',
+        href: '/articles/',
         icon: LayoutGrid,
     },
     {
         title: 'create ser',
-        href: '/sers/create',
+        href: '/articles/create',
         icon: LayoutGrid,
     },
     {

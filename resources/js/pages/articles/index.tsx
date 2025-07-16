@@ -53,7 +53,7 @@ const Index = ({ articles }: any) => {
                       href={`/tags/${tag.slug}`}
                       className="bg-red-700 text-white text-xs font-bold py-1 px-3 rounded-md hover:bg-red-800 transition"
                     >
-                      {tag.name}
+                      {tag.name}   
                     </Link>
                   ))}
                 </div>
